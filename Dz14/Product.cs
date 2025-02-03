@@ -3,9 +3,9 @@
     public class Product
     {
         public int Id { get; set; }
-        public Order order;
-        public Category category;
-        public Manufacturer manufacturer;
+        public Order order { get; set; }
+        public Category category { get; set; }
+        public Manufacturer manufacturer { get; set; }
         public Product(int id, Order Order, Category Category, Manufacturer Manufacturer)
         {
             Id = id;

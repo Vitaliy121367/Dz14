@@ -11,6 +11,7 @@
             Name = name;
             buyer = buyerr;
         }
+
         public override string ToString()
         {
             return $"Order\nId: {Id}\nOrder: {Name}\nBuyer: {buyer.Name}";
